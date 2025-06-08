@@ -1,0 +1,12 @@
+Multiple Linear Regression,SVM,,,,,,,Decision Tree,,,,Random Forest,,,,
+r2_score,kernel,C,gamma,epsilon,degree,coef0,r2_score,max_depth,min_samples_split,min_samples_leaf,R² Score,n_estimators,max_depth,min_samples_split,min_samples_leaf,R² Score
+0.935868,poly,1,scale,0.1,2,1,0.942325347,None,5,1,0.9444,100,10,2,1,0.946
+,poly,1,auto,0.1,2,1,0.942325347,5,5,1,0.9444,100,None,2,1,0.946
+,linear,10,scale,0.1,,,0.937673319,None,2,2,0.9408,50,None,2,1,0.9446
+,linear,10,auto,0.1,,,0.937673319,10,2,2,0.9408,50,10,2,1,0.9446
+,linear,1,scale,0.1,,,0.937654158,5,5,4,0.9284,50,5,2,1,0.9423
+,linear,1,auto,0.1,,,0.937654158,10,5,4,0.9284,100,5,2,1,0.942
+,sigmoid,0.1,scale,0.1,,0,0.693953052,3,2,4,0.9284,100,None,5,1,0.9265
+,sigmoid,0.1,auto,0.1,,0,0.693953052,10,2,4,0.9284,100,10,5,1,0.9265
+,rbf,10,scale,0.2,,,0.547212912,3,5,1,0.9143,100,5,5,1,0.9265
+,rbf,10,auto,0.2,,,0.547212912,5,10,1,0.9112,100,10,2,2,0.9257
